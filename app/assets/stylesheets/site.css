@@ -250,7 +250,7 @@ and (orientation: landscape) {
 }
 
 .footer-bg1{
-    background: url("yellow_bg.jpg");
+    background: url("../img/yellow_bg.jpg");
     height:auto;
     padding:75px;
     background-repeat: no-repeat;
@@ -258,7 +258,7 @@ and (orientation: landscape) {
 }
 
 .footer-bg2{
-    background: url("purple_bg.jpg");
+    background: url("../img/purple_bg.jpg");
     height:auto;
     padding:75px;
     background-repeat: no-repeat;
@@ -354,9 +354,8 @@ input[type="number"]::-webkit-inner-spin-button {
     border: 0;
     border-bottom: 1px solid darkorange;
     outline: 0;
-    margin-left: -42%;
     text-align: center;
-    font-size: 16px;
+    font-size: 16px;		width: 100%;
 }
 
 #exTab .tab-content {
@@ -424,27 +423,55 @@ a {
 .active > div:first-child { display:block; }
 
 /*xs*/
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
+    .footer-btn-subscribe{
+        margin-left:15px!important;
+        margin-top:15px!important;
+    }
+    .box{
+        margin-bottom:5px;
+    }
+
+    .coming-soon-img {
+        width: 95% !important;
+        margin-top: 138vw !important;
+        margin-left: -2% !important;
+    }
+
+    .mobile-margin-minus-25{
+        margin-top: -25px;
+    }
+    .mobile-margin-minus-15{
+        margin-top: -15px;
+    }
     .carousel-inner .active.left { left: -50%; }
     .carousel-inner .active.right { left: 50%; }
     .carousel-inner .next        { left:  50%; }
     .carousel-inner .prev		     { left: -50%; }
     .carousel-col                { width: 50%; }
     .active > div:first-child + div { display:block; }
+    .sum-input{margin-left:0; margin-bottom:15px;}
 }
 
 /*sm*/
-@media (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .coming-soon-img {
+        width: 95% !important;
+        margin-top: 42vw !important;
+        margin-left: 1% !important;
+    }
+
     .carousel-inner .active.left { left: -50%; }
     .carousel-inner .active.right { left: 50%; }
     .carousel-inner .next        { left:  50%; }
     .carousel-inner .prev		     { left: -50%; }
     .carousel-col                { width: 50%; }
     .active > div:first-child + div { display:block; }
+    .sum-input{margin-left:0; margin-bottom:15px;}
 }
 
 /*md*/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     .carousel-inner .active.left { left: -33%; }
     .carousel-inner .active.right { left: 33%; }
     .carousel-inner .next        { left:  33%; }
@@ -455,7 +482,7 @@ a {
 }
 
 /*lg*/
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .carousel-inner .active.left { left: -25%; }
     .carousel-inner .active.right{ left:  25%; }
     .carousel-inner .next        { left:  25%; }
@@ -542,7 +569,197 @@ h3 {
 
 .promo-pic-size {
     width: 100%;
+}.fa {	display: inline-block !important;}
+
+.coming-soon-img {
+    position: absolute;
+    z-index: 3;
+    height: auto;
+    width: 50%;
+    opacity: .7;
+    margin-top: 11vw;
+    margin-left: 22%;
 }
+
+.coming-soon-hdr-img {
+    position: absolute;
+    z-index: 3;
+    height: auto;
+    width: 40%;
+    opacity: .7;
+    margin-top: -2vw;
+    margin-left: 30%;
+}
+
+/*xs*/
+@media (max-width: 767px) {
+    .sum-input {
+        margin-left: 0%;
+        margin-bottom: 20px;
+    }
+
+    .box {
+        height: 27rem;
+    }
+
+    .footer-btn-subscribe {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .box-in-carousel p{
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+    .price-tag {
+        font-size: 14px;
+    }
+
+    .price-subtitle {
+        font-size: 10px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-subtitle {
+        font-size: 10px;
+    }
+
+    .btn-apply-color {
+        margin-top: 3vw;
+    }
+
+    .mobile-title-height {
+        height: 112px;
+    }
+
+    .coming-soon-hdr-img {
+        width: 95%;
+        margin-top: 47vw;
+        margin-left: -1%;
+    }
+}
+
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .sum-input {
+        font-size: 10px;
+    }
+
+    .btn-search-mobile {
+        margin-left: 47%;
+    }
+
+    .lbl-color-mod {
+        font-size: 14px;
+    }
+
+    .coming-soon-hdr-img {
+        width: 50%;
+        margin-top: 16vw;
+        margin-left: 24%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+    .coming-soon-img {
+        width: 75% !important;
+        margin-top: 24vw !important;
+        margin-left: 11% !important;
+    }
+
+    .box-in-carousel p{
+        font-size: 12px;
+    }
+
+    .card-subtitle {
+        font-size: 10px;
+    }
+
+    .box-in-carousel {
+        width: 100%;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .mobile-remove-pad-left {
+        padding-left: 0;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+
+        margin-top: 28vw;
+    }
+
+    .coming-soon-hdr-img {
+        margin-top: 10vw;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1280px) {
+    .coming-soon-img {
+        width: 57%;
+        margin-top: 24vw;
+        margin-left: 21%;
+    }
+
+    .card-title {
+        font-size: 17px;
+    }
+
+    .card-subtitle {
+        font-size: 9px;
+    }
+
+    .box-in-carousel {
+        width: 100%;
+    }
+
+    .mobile-remove-pad-left {
+        padding-left: 0;
+    }
+
+    .box-in-carousel p{
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 13px;
+    }
+
+    .coming-soon-hdr-img {
+        margin-top: 5vw;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1440px) {
+    .coming-soon-img {
+        width: 70% !important;
+        margin-top: 18vw !important;
+        margin-left: 13% !important;
+    }
+
+    .card-subtitle {
+        font-size: 10px;
+    }
+
+    .box-in-carousel {
+        width: 100%;
+    }
+
+    .coming-soon-hdr-img {
+        margin-top: 3vw;
+    }
+}
+
 /*Kim*/
 /*Dylan*/
 .dropdown-toggle_header a:hover{
@@ -593,3 +810,9 @@ h3 {
     margin-right:8rem;
 }
 /*Dylan*/
+
+
+#wuf-adv{
+    display:none!important;
+
+}

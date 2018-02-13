@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'react-bootstrap-rails'
 gem 'bootstrap', '~> 4.0'
 gem 'mongo','~>2.4.1'
 gem 'mongoid','~>6.1.1'

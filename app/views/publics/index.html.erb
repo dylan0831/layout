@@ -3,9 +3,28 @@
 <head>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
+<body style="margin: 0">
 <%= react_component("LandingPage") %>
-<%= javascript_include_tag "jquery.min.js" %>
+<%= react_component("Testing") %>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <%= javascript_include_tag "bootstrap.min.js" %>
+<!--Script for Carousel-->
+<script>
+    $('.carousel[data-type="multi"] .carousel-item').each(function () {
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+        for (var i = 0; i < 2; i++) {
+            next = next.next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+        }
+    });
+</script>
 </body>
 </html>
