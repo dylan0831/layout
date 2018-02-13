@@ -1,0 +1,6 @@
+development:
+  # Configure available database clients. (required)
+  clients:
+    # Defines the default client. (required)
+    default:
+       uri: "mongodb://einsuredev:einsure123@ds111568.mlab.com:11568/test1?authSource=test1"
