@@ -1,6 +1,6 @@
 import React from "react"
 
-class Testing extends React.Component {
+class LandingPage extends React.Component {
   render () {
     return (
         <div className="container-fluid">
@@ -648,4 +648,4 @@ class Testing extends React.Component {
     );
   }
 }
-export default Testing
+export default LandingPage
