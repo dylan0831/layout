@@ -1,0 +1,595 @@
+/*Dylan*/
+
+.login-icon{
+    color:darkorange;
+}
+
+.navbar2 {
+    width: 100%;
+}
+.navbar2 li {
+    float: none;
+    display: inline-block;
+    color:white;
+}
+
+.navbar2 a{
+    color:white !important;
+    padding-right:50px !important;
+}
+
+.navbar2 a:hover{
+    color:lightgrey !important;
+}
+
+.footer-text{
+    color:darkorange;
+    font-weight:bold;
+}
+
+.whyEinsure-font h5{
+    margin-top:23px;
+    font-weight:bold;
+    color:#1B3C68;
+}
+
+.whyEinsure-font p{
+    font-size:15px;
+    color:dimgrey;
+}
+/*Dylan*/
+/*Lance's CSS*/
+#bg {
+    width: 100%;
+    position: inherit;
+    top: 0;
+    left: 0;
+}
+#bg1 {
+    width: 100%;
+    height: 100%;
+}
+
+.blue-theme-bg {
+    background-color:#eef7ff;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.form-control {
+    display: block;
+    width: 260px !important;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control1 {
+    display: block;
+    width: 545px !important;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control2 {
+    display: block;
+    text-align:center;
+    margin: auto;
+    width: 220px !important;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.title-font-theme {
+    font-weight: 700;
+    color:#ef5502;
+}
+
+.img-Logo {
+    width: 195px;
+    height: 72px;
+    border:2px solid #fff;
+    box-shadow: 10px 6px 8px #ccc;
+    -moz-box-shadow: 10px 6px 8px #ccc;
+    -webkit-box-shadow: 10px 6px 8px #ccc;
+    -khtml-box-shadow: 10px 6px 8px #ccc;
+}
+
+.img-Logo-1 {
+    width: 175px;
+    height: 72px;
+    border:2px solid #fff;
+    box-shadow: 10px 6px 8px #ccc;
+    -moz-box-shadow: 10px 6px 8px #ccc;
+    -webkit-box-shadow: 10px 6px 8px #ccc;
+    -khtml-box-shadow: 10px 6px 8px #ccc;
+}
+
+.img-Logo-2 {
+    width: 196px;
+    height: 72px;
+    border:0px solid #fff;
+    box-shadow: 10px 6px 8px #ccc;
+    -moz-box-shadow: 10px 6px 8px #ccc;
+    -webkit-box-shadow: 10px 6px 8px #ccc;
+    -khtml-box-shadow: 10px 6px 8px #ccc;
+}
+
+.title-spacing {
+    margin-top: 35px;
+    margin-bottom:25px;
+}
+
+.table-cell-title {
+    font-weight: 700;
+}
+
+.btn-black-font {
+    color:black;
+    font-weight: 600;
+}
+
+.btn-readmore {
+    background-color:#cee0f1 !important;
+}
+
+.btn-warning {
+    color: black;
+    background-color: #efa200;
+    border-color:  #efa200;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 11px 30px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    background-color:white;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .form-control1 {
+        display: block;
+        width: 260px !important;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .form-control1 {
+        display: block;
+        width: 260px !important;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+/*Lance's CSS*/
+/*Dylan*/
+.whyEinsure p{
+    color:dimgrey;
+}
+
+.footer-bg1{
+    background: url("yellow_bg.jpg");
+    height:auto;
+    padding:75px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.footer-bg2{
+    background: url("purple_bg.jpg");
+    height:auto;
+    padding:75px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.footer-bg1 h3{
+    font-weight:bold;
+}
+
+.footer-bg1 p{
+    font-size:24px;
+}
+
+.footer-bg2 h3{
+    font-weight:bold;
+    color:white;
+}
+
+.footer-bg2 p{
+    font-size:24px;
+    color:white;
+}
+
+.footer-btn-signup{
+    font-weight:bold;
+    color:white !important;
+}
+
+.footer-btn-signup1{
+    background-color:darkorange;
+    font-weight:bold;
+    color:#1B3C68 !important;
+}
+
+.footer-bottom-text h6{
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.footer-bottom-text p{
+    color:lightgrey;
+    margin-bottom:10px;
+}
+
+.footer-bottom-text a{
+    text-decoration:none;
+}
+
+.footer-bottom-text p:hover{
+    color:white;
+}
+
+.footer-input-subscribe{
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    width:100% !important;
+}
+
+.footer-btn-subscribe{
+    font-size:13px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius:0px;
+    background-color:#F75F26;
+    color:white !important;
+    font-weight:bold;
+}
+
+.footer-btn-subscribe:hover{
+    background-color:darkorange;
+}
+/*Dylan*/
+/*Kim*/
+/*Remove the Spin Box for input type="number"*/
+/*for FireFox*/
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+/*for Chrome*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn-apply-color {
+    background-color: orange;
+    color: #1B3C68;
+}
+
+.sum-input {
+    border: 0;
+    border-bottom: 1px solid darkorange;
+    outline: 0;
+    margin-left: -42%;
+    text-align: center;
+    font-size: 16px;
+}
+
+#exTab .tab-content {
+    background-color: white;
+}
+
+#exTab .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: black;
+    background-color: white;
+}
+
+a {
+    color: black;
+}
+.lbl-color-mod {
+    color: #1B3C68;
+    cursor: pointer;
+}
+
+.box {
+    border: 1px solid lightgrey;
+    width: 80%;
+    height: 27rem;
+    text-align: left;
+    padding: 10px;
+}
+/*TEMP PIC*/
+.hdr-bg-img {
+    background-image: url("yellow_bg.jpg");
+    height: auto;
+}
+
+/*CAROUSEL CSS*/
+.carousel-control {
+    width: 8%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: lightgrey;
+    opacity: 1;
+    border-radius: 50%;
+    height: 3vw;
+    width: 40%;
+    margin-top: 15vw;
+}
+.carousel-control > a > span {
+    color: white;
+    font-size: 29px !important;
+}
+
+.carousel-col {
+    position: relative;
+    min-height: 1px;
+    padding: 5px;
+    float: left;
+}
+
+.active > div { display:none; }
+.active > div:first-child { display:block; }
+
+/*xs*/
+@media (max-width: 767px) {
+    .carousel-inner .active.left { left: -50%; }
+    .carousel-inner .active.right { left: 50%; }
+    .carousel-inner .next        { left:  50%; }
+    .carousel-inner .prev		     { left: -50%; }
+    .carousel-col                { width: 50%; }
+    .active > div:first-child + div { display:block; }
+}
+
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-inner .active.left { left: -50%; }
+    .carousel-inner .active.right { left: 50%; }
+    .carousel-inner .next        { left:  50%; }
+    .carousel-inner .prev		     { left: -50%; }
+    .carousel-col                { width: 50%; }
+    .active > div:first-child + div { display:block; }
+}
+
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .carousel-inner .active.left { left: -33%; }
+    .carousel-inner .active.right { left: 33%; }
+    .carousel-inner .next        { left:  33%; }
+    .carousel-inner .prev		     { left: -33%; }
+    .carousel-col                { width: 33%; }
+    .active > div:first-child + div { display:block; }
+    .active > div:first-child + div + div { display:block; }
+}
+
+/*lg*/
+@media (min-width: 1200px) {
+    .carousel-inner .active.left { left: -25%; }
+    .carousel-inner .active.right{ left:  25%; }
+    .carousel-inner .next        { left:  25%; }
+    .carousel-inner .prev		     { left: -25%; }
+    .carousel-col                { width: 25%; }
+    .active > div:first-child + div { display:block; }
+    .active > div:first-child + div + div { display:block; }
+    .active > div:first-child + div + div + div { display:block; }
+}
+
+.box-in-carousel {
+    background-color: white;
+    box-shadow: 5px 10px 8px #888888;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+}
+
+.line-under {
+    border-bottom: 1px solid lightgrey;
+    width: 105%;
+    padding-top: 15px;
+}
+
+.btn-padding-top {
+    padding-top: 15px;
+}
+.lower-height {
+    height: 47px;
+}
+
+.higher-height {
+    height: auto;
+}
+
+.hdr-title {
+    color: darkorange;
+}
+
+.card-title {
+    color: darkorange;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-row-pad-btm {
+    padding-bottom: 5%;
+}
+
+.card-subtitle {
+    font-size: 12px;
+}
+
+.btn-read-color {
+    background-color: lightgrey;
+    color: black;
+}
+
+h1{
+    color: #1B3C68;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.price-tag {
+    font-size: 20px;
+    padding-left: 6%;
+}
+
+.price-subtitle {
+    font-size: 11px;
+}
+
+.star {
+    color: orange;
+}
+
+.info {
+    transform: translate(12px,10px);
+    color: green;
+}
+
+.promo-pic-size {
+    width: 100%;
+}
+/*Kim*/
+/*Dylan*/
+.dropdown-toggle_header a:hover{
+    background-color:transparent;
+}
+
+.dropdown-toggle_header ul{
+    background-color:#132947;
+}
+
+.dropdown-toggle_header:active{
+    background-color:transparent !important;
+}
+
+.dropdown-toggle_header li{
+    width:100%;
+}
+
+.whyEinsure-container{
+    background-color:#FDFFFF;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.whyEinsure-content{
+    padding-left:50px;
+    padding-right:50px;
+    margin-top:30px
+}
+
+.top-header a{
+    color:lightgrey;
+}
+
+.top-header a:hover {
+    color:black;
+}
+
+.top-header2 a{
+    color:white;
+}
+
+.top-header2 .dropdown-menu{
+    background-color: #132947 !important;
+}
+
+.top-header2 li{
+    margin-right:8rem;
+}
+/*Dylan*/
