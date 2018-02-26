@@ -6,8 +6,11 @@
     "babel-preset-react": "^6.24.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-bootstrap-carousel": "^2.3.0",
     "react-dom": "^16.2.0",
-    "react_ujs": "^2.4.3"
+    "react_ujs": "^2.4.3",
+    "reactstrap": "^5.0.0-beta"
   },
   "devDependencies": {
     "file-loader": "^1.1.6",
